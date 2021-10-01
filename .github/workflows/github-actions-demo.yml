@@ -21,5 +21,8 @@ jobs:
       - name: Start unittest
         run: python testing.py
       - name: Black
-        run: black --help
+        run: |
+          eval "$(conda shell.bash hook)"
+          conda activate mlops_project
+          black --help
 
