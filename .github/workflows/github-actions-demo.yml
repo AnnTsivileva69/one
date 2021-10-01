@@ -20,4 +20,6 @@ jobs:
           conda activate mlops_project
       - name: Start unittest
         run: python testing.py
+      - name: Black
+        run: black --help
 
