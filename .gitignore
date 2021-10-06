@@ -1,0 +1,22 @@
+# data
+*.csv
+
+# DotEnv configuration
+.env
+
+# cache
+__pycache__
+
+# IDE (Pycharm, VS Code, Spyder)
+.idea
+.vscode
+.spyproject
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints
+
+# jupyterlab-git
+dummy_init.dat
+
+# Mac OS-specific storage files
+.DS_Store
